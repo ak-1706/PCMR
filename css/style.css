@@ -2043,10 +2043,41 @@ margin-top: 20px;
 
 /** end product section **/
 
+
+ 
+
+.map-responsive{
+
+    overflow:hidden;
+
+    padding-bottom:56.25%;
+
+    position:relative;
+
+    height:0;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+
+    top:0;
+
+    height:100%;
+
+    width:100%;
+
+    position:absolute;
+
+}
+ 
+
+
 /** map section **/
 .map img {
 	width: 100%;
-    padding:20px;
+    padding:0px;
    /* padding-left: 60px;
 	padding-right: 60px;*/
 }
